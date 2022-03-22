@@ -8,26 +8,12 @@
           box-sizing: border-box;
 }
 
-/* Typography */
-:root {
-  --violet: hsl(263, 55%, 52%);
-  --blue-200: hsl(210, 46%, 95%);
-  --blue-500: hsl(217, 19%, 35%);
-  --blue-800: hsl(219, 29%, 14%);
-  --white: hsl(0, 0%, 100%);
-  --verified-light: hsl(0, 0%, 100%, 0.5);
-  --review-light: hsl(0, 0%, 100%, 0.7);
-  --gray-100: hsl(0, 0%, 81%);
-  --verified-dark: hsl(217, 19%, 35%, 0.5);
-  --review-dark: hsl(217, 19%, 35%, 0.7);
-}
-
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
   font-size: 13px;
-  background-color: var(--gray-100);
-  color: var(--white);
+  background-color: #ecf2f8;
+  color: white;
 }
 
 .wrapper {
@@ -92,7 +78,7 @@ body {
   border-radius: 1rem;
   height: 100%;
   padding: 2rem 2rem;
-  color: var(--white);
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,7 +137,7 @@ body {
 }
 
 .box1 {
-  background-color: var(--violet);
+  background-color: #7541c8;
   background-image: url(../images/bg-pattern-quotation.svg);
   background-size: 120px 120px;
   background-repeat: no-repeat;
@@ -165,15 +151,15 @@ body {
 }
 
 .box2 {
-  background-color: var(--blue-500);
+  background-color: #48556a;
 }
 
 .box3 {
-  background-color: var(--white);
+  background-color: white;
 }
 
 .box4 {
-  background-color: var(--blue-800);
+  background-color: #19212e;
 }
 
 @media (min-width: 767px) {
@@ -188,7 +174,7 @@ body {
 }
 
 .box5 {
-  background-color: var(--white);
+  background-color: white;
 }
 
 @media (min-width: 767px) {
@@ -203,5 +189,5 @@ body {
 }
 
 .box-white {
-  color: var(--blue-500);
+  color: #48556a;
 }

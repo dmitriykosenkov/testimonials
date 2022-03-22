@@ -1,4 +1,4 @@
-@import "./var";
+@import "./_var.scss";
 @import url(https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:500,600);
 
 *,
@@ -13,8 +13,8 @@ body {
    font-family: $family;
    font-weight: $fw-500;
    font-size: $fz-basic;
-   background-color: var(--gray-100);
-   color: var(--white);
+   background-color: $blue-200;
+   color: $white;
 }
 .wrapper {
    min-height: 100vh;
@@ -49,7 +49,7 @@ body {
    border-radius: $radii;
    height: 100%;
    padding: 2rem 2rem;
-   color: var(--white);
+   color: $white;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -84,7 +84,7 @@ body {
    }
 }
 .box1 {
-   background-color: var(--violet);
+   background-color: $violet;
    background-image: url(../images/bg-pattern-quotation.svg);
    background-size: 120px 120px;
    background-repeat: no-repeat;
@@ -94,13 +94,13 @@ body {
    }
 }
 .box2 {
-   background-color: var(--blue-500);
+   background-color: $blue-500;
 }
 .box3 {
-   background-color: var(--white);
+   background-color: $white;
 }
 .box4 {
-   background-color: var(--blue-800);
+   background-color: $blue-800;
    @media (min-width: 767px) {
       grid-column-start: 2;
       grid-column-end: 4;
@@ -109,7 +109,7 @@ body {
    }
 }
 .box5 {
-   background-color: var(--white);
+   background-color: $white;
    @media (min-width: 767px) {
       grid-column-start: 4;
       grid-column-end: 5;
@@ -118,5 +118,5 @@ body {
    }
 }
 .box-white {
-   color: var(--blue-500);
+   color: $blue-500;
 }
